@@ -160,16 +160,16 @@ sup {
   position: relative;
 }
 .reference-section .align-items-center:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    background-image: url(./image/quotes.svg);
-    background-repeat: no-repeat;
-   opacity: 0.3;
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-image: url(./image/quotes.svg);
+  background-repeat: no-repeat;
+  opacity: 0.3;
 }
 .reference-item {
   border-radius: 8px;
@@ -196,7 +196,7 @@ sup {
   line-height: 20px;
   color: #6b7280;
 }
-.quotesSmall{
+.quotesSmall {
   vertical-align: top;
 }
 
@@ -261,12 +261,48 @@ h4.getApp {
   .title-area .title-title {
     padding-bottom: 0rem;
   }
+  .title-area h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .title-area p {
+    font-size: 18px;
+    line-height: 28px;
+  }
   .title-area .row {
     margin-top: 3rem;
     /* margin-left: 3rem; */
   }
   .header .apps {
     visibility: hidden;
+  }
+  .feature-title h5 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .feature-title p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .feature-area h4 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .feature-area p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .reference-title h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .reference-title p {
+    font-size: 18px;
+    line-height: 28px;
   }
 }
 
@@ -275,6 +311,16 @@ h4.getApp {
 @media screen and (max-width: 375px) {
   .navbar-toggler {
     border: none;
+  }
+  .title-area h1 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .title-area p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #374151;
   }
 
   .feature-title h5 {
@@ -288,12 +334,12 @@ h4.getApp {
   }
   .feature-area h4 {
     font-weight: bold;
-    font-size: 36px;
-    line-height: 45px;
+    font-size: 24px;
+    line-height: 32px;
   }
   .feature-area p {
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .reference-title h2 {
