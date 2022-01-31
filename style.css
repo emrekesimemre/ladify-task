@@ -13,9 +13,8 @@ header {
   max-width: 100%;
 }
 /* NAVBAR */
-sup {
-  font-weight: bolder;
-  font-size: 8px;
+.tmImage {
+  vertical-align: super;
 }
 
 .navbar {
@@ -25,7 +24,7 @@ sup {
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
-  color: #111827;
+  color: #111827 !important;
 }
 .navbar-toggler-icon {
   border: none;
@@ -112,6 +111,8 @@ sup {
 
 .feature-title p {
   margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .feature-area {
@@ -272,7 +273,6 @@ h4.getApp {
   }
   .title-area .row {
     margin-top: 3rem;
-    /* margin-left: 3rem; */
   }
   .header .apps {
     visibility: hidden;
